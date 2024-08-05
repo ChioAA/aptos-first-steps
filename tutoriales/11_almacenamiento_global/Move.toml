@@ -1,9 +1,10 @@
 [package]
 name = "Almacenamiento Global"
-version = "0.0.0"
+version = "0.0.1"
 
 [addresses]
-cuenta = "_"
+cuenta = "0xab6c63c4d6b55779b2ee0fa096204da62f1e0ec0117c5fb12beb9d6469437485" # Cambia esto a la dirección real que estás usando
+std = "0x1"
 
 [dependencies.AptosStdlib]
 git = 'https://github.com/aptos-labs/aptos-core.git'

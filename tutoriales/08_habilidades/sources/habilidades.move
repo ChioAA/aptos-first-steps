@@ -1,7 +1,7 @@
 module aptosz3::habilidades {
     // drop
     struct Ignorame has drop { a: u8 }
-    struct SinDrop { a: u8}
+    struct SinDrop { a: u8 }
 
     fun practica_drop() {
         let sin_drop = SinDrop { a: 1 };
@@ -62,7 +62,6 @@ module aptosz3::habilidades {
         
         // key y store haran mas sentido en las siguientes lecciones. Por ahora, analiza las sintaxis y entiende cuales son las habilidades que existen en Move.
     }
-
 
     #[test]
     fun prueba() {
